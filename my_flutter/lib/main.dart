@@ -97,10 +97,6 @@ class _MyHomePageState extends State<MyHomePage> {
                   'window.physicalSize.height: ${window.physicalSize.height}\n'
                   'window.devicePixelRatio: ${window.devicePixelRatio}',
             ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.display1,
-            ),
             Container(
               color: Colors.greenAccent,
               width: window.physicalSize.width / (4 * window.devicePixelRatio),
