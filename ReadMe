@@ -1,0 +1,10 @@
+Add Flutter as a module.
+
+The way use flutter:
+1. Activity extends FlutterActivity,  see FlutterDemoActivity;
+2. add 'Flutter.startInitialization(this)' into application , see FlutterDemoApplication;
+
+debug or profile mode is ok,but release not works.
+the problem is:
+values of window.physicalSize.width/height and window.devicePixelRatio are wrong.
+see screenshot
