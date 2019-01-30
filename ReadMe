@@ -8,3 +8,5 @@ debug or profile mode is ok,but release not works.
 the problem is:
 values of window.physicalSize.width/height and window.devicePixelRatio are wrong.
 see screenshot
+
+resolved. Call MediaQuery.of(context) before calling window.xxx
